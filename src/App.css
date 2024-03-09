@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
+/* App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  margin:0 auto;
+  margin-left: 25%;
+  margin-right: 30%;
+ 
+ 
+  padding: 20px;
+  width:34.375rem;
+  max-height:100%;
+  border-radius:5px black;
+  background-color: gainsboro;
+  border:2px solid black;
+}
+.safety{
+  margin-left: 34%;
 }
 
-.App-link {
-  color: #61dafb;
+.stars{
+  font-size: 35px;
+  cursor:pointer;
+  color:gray;
+  
+  
+}
+.selected{
+  color:rgba(229, 255, 0, 0.833);
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.communication{
+  margin-left: 34%;
+}
+.Trausti{
+  margin-left: 32%;
+}
+
+.like-dislike-button{
+  
+  margin-left: 32%;
+  cursor: pointer;
+
+}
+
+.trust-button{
+  font-size:30px;
+  cursor:pointer;
+}
+
+.liked{
+  color:green;
+  color:red;
+}
+
+.like{
+  color:green;
+
+}
+
+.praise-section{
+  margin-left: 32%;
+  
+  
+}
+.button{
+  cursor: pointer;
 }
